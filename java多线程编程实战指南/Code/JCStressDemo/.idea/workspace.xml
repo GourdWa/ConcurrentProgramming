@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b13f93b4-d455-4415-83e5-a443ac89336b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcstress-results-2020-06-14-14-29-08.bin.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcstress-results-2020-06-14-14-30-06.bin.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcstress-results-2020-06-14-14-35-20.bin.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/com.learn.CounterTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/com.learn.test.VolatileTest.AddVolatile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/com.learn.test.VolatileTest.NoVolatile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/test/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/learn/CounterTest_StateObject_jcstress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/learn/CounterTest_jcstress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/learn/test/VolatileTest_AddVolatile_jcstress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/learn/test/VolatileTest_NoVolatile_jcstress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/org/openjdk/jcstress/infra/results/L_Result_jcstress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/chapter1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/domain/JavaThreadAnywhere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/domain/ThreadCreationCmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/domain/WelcomeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/domain/WelcomeApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/runnable/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/runnable/WelcomeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/thread/WelcomeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter1/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/chapter10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/SampleServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/SampleServiceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/SampleServiceC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/domain/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter10/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/.idea/artifacts/chapter2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/chapter2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/domain/RaceConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/domain/ThreadJoinVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/domain/ThreadStartVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/domain/VisibilityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/inter/CircularSeqGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/utils/RequestIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/.idea/artifacts/chapter3_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/chapter3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/ExplicitLockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/FinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/SimpleMultiThreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/SingleThreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/StaticHolderSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/domain/VolatileTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/.idea/artifacts/chapter4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/chapter4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter4/src/dom/learn/domain/GetCpuNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/chapter5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/bean/AlarmAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/CaseRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/ShootPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/domain/TimeoutWaitWithCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter5/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter6/chapter6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter6/src/com/learn/domain/ThreadLocalTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/chapter7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/bearn/AbstractPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/bearn/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/bearn/DeadlockingPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/bearn/DiningPhilosopherProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/bearn/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/domain/DeathThreadDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/domain/NestedMonitorLockoutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter7/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/chapter8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/com/learn/domain/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/com/learn/domain/ThreadMonitorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/com/learn/domain/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/com/learn/utils/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter8/src/com/learn/utils/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/chapter9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/src/com/learn/domain/ExecutorCompletionServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter9/src/com/learn/domain/ExecutorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.jst.j2ee.ejb.annotations.xdoclet.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/WEB-INF/lib/annotations.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/WEB-INF/lib/commons-net-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/WEB-INF/lib/jcstress.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/WebContent/report.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/data/ch9/feed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/AJavaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/EchoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/FileDownloaderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/JavaThreadAnywhere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/SimpleJavaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/SimpleTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/WelcomeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/WelcomeApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch1/WelcomeApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch10/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch10/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch10/LogReaderThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch10/MultithreadedStatTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/AutoPaddedCountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/CountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/DefaultCountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/FalseSharingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/ImplicitControlThreadsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/LockCoarseningExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/LockElisionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/LogPrinterV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/LogPrinterV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/ManuallyPaddedCountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/SectionBasedStorageV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/SectionBasedStorageV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/CaseRunner12_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/FineRequestRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/NaiveRequestRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/RequestMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/RequestRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/RequestRegistryHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch12/case01/TimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/CircularSeqGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/JITReorderingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/NoRaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/NonAtomicAssignmentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/RaceConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/ReorderingIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/RequestIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/SafeCircularSeqGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/SpeculativeLoadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/ThreadJoinVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/ThreadStartVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch2/VisibilityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/CASBasedCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/ClassLazyInitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/DCLSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/EnumBasedSingletonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/ExplicitLockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/FinalAndObjectInitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/FinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/FinalFieldExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/HTTPRangeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/IncorrectDCLSingletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/LockbasedCircularSeqGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/SafeObjPublishWhenStartingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/SimpleMultithreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/SingleThreadedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/StaticHolderSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/StaticVisibilityExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/VolatileOrderingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/AbstractLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/CaseRunner3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/LoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/ServiceInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/SystemBooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case01/WeightedRoundRobinLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case02/CountingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case02/Indicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case03/AlarmMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/case03/CaseRunner3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/rwlock/ReadWriteLockDowngrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch3/rwlock/ReadWriteLockUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/WTSTMeasureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case01/BigFileDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case01/CaseRunner4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case01/DownloadBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case01/DownloadTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case01/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/AbstractLogReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/AbstractStatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/CaseRunner4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/DelayItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/FastTimeStampParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/LogReaderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/MultithreadedStatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/RecordProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/RecordSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/SimpleStatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch4/case02/StatProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/ConcurrentRSSReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/MayNotBeTerminatedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/SemaphoreBasedChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/ShootPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/TaskRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/TaskRunnerSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/TerminatableTaskRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/ThreadManagementContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/ThreadTerminationRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/TimeoutWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/TimeoutWaitWithCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case01/AlarmAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case01/CaseRunner5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/CaseRunner5_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/SampleServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/SampleServiceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/SampleServiceC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/ServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case02/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case03/CaseRunner5_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case03/ExchangerBasedLogReaderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case03/StatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case04/CaseRunner5_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch5/case04/MusicFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/BigImmutableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/JavaMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/ServletWithThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/ThreadLocalCleanupFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/ThreadLocalMemoryLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/case01/CaseRunner6_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/case01/SmsVerficationCodeSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/case01/ThreadSpecificSecureRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/so/BrokenStatelessObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/so/DefaultEndpointComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/so/EndpointView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch6/so/UnsafeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/DeadlockDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/DeadlockRecoveryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/NestedMonitorLockoutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/CaseRunner7_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/ConfigEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/ConfigurationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/case01/ConfigurationManagerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/AbstractPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/BuggyLckBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/DeadlockingPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/DiningPhilosopherProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/FixedLockBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/FixedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/GlobalLckBasedPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch7/diningphilosophers/RecoverablePhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/AppListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/PauseControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/TPBigFileDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/TaskResultRetrievalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/TaskWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/ThreadMonitorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/ThreadPauseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/XThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch8/XThreadFactoryUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/AsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/FileBatchUploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/FileBatchUploaderUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/PeriodicTaskResultHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/ScheduledTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/SynchronousExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/XMLDocumentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/ch9/XMLDocumentParserUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/AppWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/DESEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/ReadOnlyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/Expect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction/src/io/github/viscent/mtia/util/stf/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/Readme.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/license/gpl_cpe/header.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/license/gpl_cpe/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/io/github/viscent/mtia/ch10/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/io/github/viscent/mtia/ch10/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/io/github/viscent/mtia/ch10/CounterTestV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/ByteBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/ByteBufferViewsAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/CharBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/DirectByteBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/DirectByteBufferViewsAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/DoubleBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/FloatBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/GradeChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/GradeDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/GradeFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/GradeInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/IntBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/LongBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/buffers/ShortBufferAtomicityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/crosscache/ByteBufferIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/crosscache/DirectByteBufferIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/crosscache/UnsafeIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/ByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/CharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/DoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/FloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/IntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/LongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/ShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileCharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileDoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileFloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileLongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/perbyte/VolatileShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/ByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/CharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/DoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/FloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/IntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/LongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/ShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileCharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileDoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileFloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileLongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/plain/VolatileShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/ByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/CharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/DoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/FloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/IntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/LongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/ShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileByteAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileCharAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileDoubleAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileFloatAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileIntAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileLongAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomicity/primitives/reflect/VolatileShortAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/booleans/AtomicBooleanInitialValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/booleans/AtomicBooleanPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerArrayInitialValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerArrayInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerArrayPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerFieldUpdaterPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerInitialValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/integer/AtomicIntegerPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongArrayInitialValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongArrayInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongArrayPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongFieldUpdaterPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongInitialValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/atomics/longs/AtomicLongPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/executors/ThreadPoolExecutorKeepAliveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/executors/ThreadPoolExecutorSizesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/FencedAcquireReleaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/FencedDekkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/FencedPublicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/FencedReadTwiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/UnfencedAcquireReleaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/UnfencedDekkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/UnfencedPublicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/fences/UnfencedReadTwiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/future/FutureTaskSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_AllZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_AllZeroesBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_AllZeroesChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_AllZeroesFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_CharCanSeeMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_CharShouldSeeFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_DoubleCanSeeMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_DoubleShouldSeeFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_FloatCanSeeMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_FloatShouldSeeFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_IntCanSeeMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_IntShouldSeeFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_LongCanSeeMost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/Grading_LongShouldSeeFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/BooleanArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/ByteArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/CharArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/DoubleArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/FloatArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/IntArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/LongArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/ObjectArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/plain/ShortArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/BooleanArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/ByteArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/CharArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/DoubleArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/FloatArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/IntArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/LongArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/ObjectArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/arrays/volatiles/ShortArrayInitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/BooleanFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/ByteFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/CharFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/DoubleFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/FloatFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/IntFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/LongFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/ObjectFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/plain/ShortFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/BooleanFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/ByteFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/CharFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/DoubleFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/FloatFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/IntFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/LongFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/ObjectFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/objects/volatiles/ShortFieldsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/BooleanFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/ByteFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/CharFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/DoubleFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/FloatFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/IntFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/LongFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/fenced/ShortFencedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/BooleanFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/ByteFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/CharFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/DoubleFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/FloatFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/IntFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/LongFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/finals/ShortFinalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/BooleanInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/ByteInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/CharInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/DoubleInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/FloatInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/IntInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/LongInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/instance/ShortInstanceInitializerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/BooleanPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/BytePlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/CharPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/DoublePlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/FloatPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/IntPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/LongPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/plain/ShortPlainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/BooleanVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/ByteVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/CharVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/DoubleVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/FloatVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/IntVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/LongVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/init/primitives/volatiles/ShortVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/CurrentThreadIsInterruptedBreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/CurrentThreadIsInterruptedMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/CurrentThreadIsInterruptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ObjectWaitInfiniteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ObjectWaitTimedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/PlainBusyLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ReentrantLockInterruptiblyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ReentrantLockNonInterruptiblyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ThreadInterruptedBreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ThreadInterruptedMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ThreadInterruptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/ThreadSleepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/TimeUnitSleepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/UnsafeBusyLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/VolatileBusyLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/interrupt/WeakReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/BothSucceed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/NoOneSucceeds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/OneSucceeds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/barriers/G.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/barriers/SyncBarrier0Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/barriers/SyncBarrier1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/barriers/SyncBarrier2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/barriers/SyncBarrier3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/mutex/ReentrantLockMutexTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/mutex/ReentrantRWLockMutexTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/mutex/SynchronizedMutexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/stamped/StampedLockPairwiseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/locks/stamped/StampedLockTransitionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/FinalWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/GradingSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/GradingUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/SafeDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/SafeLocalDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/SingletonSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/SingletonUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/SynchronizedCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/UnsafeDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/singletons/UnsafeLocalDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/strings/StringBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/strings/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/ArrayInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/UnsafeArrayInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/UnsafeIntTearingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/ByteBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/CharBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/DirectByteBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/DoubleBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/FloatBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/IntBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/LongBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/tearing/buffers/ShortBufferInterleaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/unsafe/UnsafeAddLong1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/unsafe/UnsafeAddLong42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/unsafe/UnsafePublication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/unsafe/UnsafePutOrderedTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/vjug/BitSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/vjug/UnsafeAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/vjug/UnsafeConstructionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/vjug/UnsafePublicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/DekkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/DoubleVolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/IRIWTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/LazySetTransitivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/ReadAfterVolatileReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/ReadTwiceOverVolatileReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/VolatileAcquireReleaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/VolatileIRIWTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/java/org/openjdk/jcstress/tests/volatiles/VolatileIncrementAtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/scratch/completable/GetConflictTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/scratch/completable/GetRaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/scratch/completable/MyThrowable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaMultiThreadInAction/JavaMultiThreadInAction_jcstress-tests/src/main/scratch/completable/future-completable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/case_java7/case_java7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/case_java8/case_java8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/case_tomcat/case_tomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/jcstress_ordering/jcstress_ordering.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/jmh_eliminate_locks/jmh_eliminate_locks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../黑马并发编程/concurrent/jmh_performance/jmh_performance.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Free\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\Free\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dGcukB2ikSlME66p6sJm06Bofd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\JAVA\java多线程编程实战指南\Code\JCStressDemo\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.openjdk.jcstress.Main" />
+      <module name="JCStressDemo" />
+      <option name="PROGRAM_PARAMETERS" value="-t com.learn.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JCStressDemo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57863" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b13f93b4-d455-4415-83e5-a443ac89336b" name="Default Changelist" comment="" />
+      <created>1592055094908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592055094908</updated>
+      <workItem from="1592055097041" duration="232000" />
+      <workItem from="1592055609355" duration="414000" />
+      <workItem from="1592056034665" duration="206000" />
+      <workItem from="1592056250279" duration="2014000" />
+      <workItem from="1592115537904" duration="2011000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="842" y="382" key="#Notifications" timestamp="1592056270420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1592056270420" />
+    <state x="754" y="306" key="#Web_Browsers" timestamp="1592115714440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="306" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1592115714440" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592117260821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592117260821" />
+    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1592116050226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592116050226" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1592117541926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592117541926" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1592117549552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592117549552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1592117549552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592117549552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1592117549552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592117549552" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1592117549552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592117549552" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1592056288824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592056288824" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1592115850328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592115850328" />
+    <state x="334" y="180" key="new project wizard" timestamp="1592117547830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592117547830" />
+  </component>
+</project>
