@@ -2983,25 +2983,40 @@ Java内存模型从“什么（What）”的角度解答了原子性、有序性
 
 #### 11.6.2 happens-before关系
 
-假设动作A和动作B之间存在happens-before关系，称之为A happens-before B（A→B），此时A的操作结果会在B被执行之前提交（比如写入高速缓存或者主内存）。happens-before关系具有传递性，如果A happens-before B，B happens-before C，那么可以推出A happens-before C
+假设动作A和动作B之间存在happens-before关系，称之为A happens-before B（A→B），此时A的操作结果会在B被执行之前提交（比如写入高速缓存或者主内存）。**happens-before关系具有传递性**，如果A happens-before B，B happens-before C，那么可以推出A happens-before C
 
+**happens-before关系中的两个动作既可以是同一个线程执行的，也可以是不同线程执行的**
 
+happens-before关系的传递性使得可见性保障具有累积的效果。例如A→B，B→C，C→D。根据传递性可知：A→D、B→D和A→C，结合happens-before关系本身具有的可见性保障，对于D而言：不仅C的结果对于D是可见的，A和B的结果对于D也是可见的
 
+JMM内部定义了一些常用的happens-before规则
 
+* **程序顺序规则（Program Order Rule**）。即**貌似串行语义**，**一个线程中的每一个动作都happens-before该线程中程序顺序上排在该动作之后的每一个动作**。程序顺序规则意味着一个线程内任何一个动作的结果对程序顺序上该动作之后的其他动作都是可见的。尽管如此，只要这些动作不存在数据依赖关系，那么Java虚拟机（JIT）、处理器都可能对这些动作进行重排序。**也就是说尽管程序顺序上先后的两个动作是A和B，尽管他们存在着happens-before关系，但是并不意味着A必须先于动作B被执行**
+* **内部锁规则（Monitor Lock Rule）**。**内部锁的释放（unlock）happens-before之后每一个对该锁的申请（lock）（必须是同一把锁）**。假设线程T1、T2是同步在所M之上的两个线程，T2在T1释放M之后申请了M。因此从T2在获得所之后所执行的动作来看，T1在释放锁之前所执行的一系列动作就像是完全依照程序顺序执行和提交的，即对于T2而言，T1的执行顺序是有序的
+* **volatile变量规则（Volatile Variable Rule**）。对于一个volatile变量的写操作happens-before后续每一个针对该变量的读操作。也就是一个线程先对volatile变量先写，另一个线程针对同一个变量读才有happens-before关系
+* **线程启动规则（Thread Start Rule）**。**调用一个线程的start方法happens-before被启动的这个线程中的任何一个动作**。也就是假设T1在执行过程中启动了线程T2，即T1执行了T2.start()，那么该线程启动规则保障T1在T2启动前所执行的任何动作的结果对于T2来说是可见且有序的
 
+* **线程终止规则（Thread Termination Rule）**。一个线程中的任何一个动作都happens-before该线程join方法的执行线程在join方法返回之后所执行的任意一个动作。也就是**假如线程T1等待线程T2结束，那么线程终止规则保证T2所执行的任何动作的结果对T1中程序顺序上在T2.join()调用之后的任何一个动作是可见且有序的**
 
+除此之外，Java标准库也定义了一些happens-before关系，例如对于任意的CountDownLath实例，一个线程在countDown方法的调用前所执行的所有动作与另外一个线程在await方法调用成功返回之后所执行的所有动作之间存在happens-before关系；对于任意BlockingQueue实例，一个线程在put方法调用所执行的所有动作与另外一个线程在take调用返回后所执行的所有动作之间存在着happens-before关系
 
+#### 11.6.3 
 
+看书
 
+#### 11.6.4 JSR 133
 
+JDK1.5之前的Java内存模型存在着若干严重的缺陷，例如可是使一个线程先看到一个final字段的默认值接着才看到该字段的初始值，即final字段的值实际上可能是会变化的；且早期的Java内存模型允许volatile写操作与非volatile读写操作进行重排序
 
+**JSR 133（133号Java Specification Request）为Java语言定义了一个新的内存模型**
 
+### 11.7 共享变量与性能
 
+一个处理器对共享变量进行更新会导致其他处理器上的高速缓存中存储的改变量的副本数据失效。这使得这些处理器后续访问改变量时会产生缓存未命中，不利于程序的性能。多个线程之间对共享变量的访问仅仅设计读操作而没有涉及写操作，或者这些线程之间不存在共享变量均有利于减少缓存未命中的情况
 
+### 总结
 
-
-
-
+![](.\images\第十一章总结.png)
 
 
 
