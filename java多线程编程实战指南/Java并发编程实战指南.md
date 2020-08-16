@@ -1,4 +1,4 @@
-java多线程编程实战指南
+# java多线程编程实战指南
 
 ---
 
@@ -1396,7 +1396,7 @@ CountDownLatch可以用来实现一个或多个线程等待其他线程完成一
 
 CountDownLatch内部会维护一个用于表示未完成的先决操作数量的计数器。CountDownLatch.countDown()每被执行一次就会使相应实例的计数器值减少1，当计数器值为0，目标操作是一个空操作。因此，当计数器不为0时CountDownLatch.countDown()的执行线程会被暂停，这些线程就被称为相应CountDownLatch上的等待线程。**CountDownLatch.countDown()相当于一个通知方法，它会在计数器值达到0的时候唤醒相应实例上的所有等待线程**
 
-当计数值的值达到0之后，该计数器的值就不会再发生变化，此时即使再调用CountDownLatch.countDown()方法也不会导致异常，并且后续执行CountDownLatch。await()的线程也不会被暂停。**因此CountDownLatch的使用是一次性的：一个CountDownLatch实例只能够实现一次等待和唤醒**
+当计数值的值达到0之后，该计数器的值就不会再发生变化，此时即使再调用CountDownLatch.countDown()方法也不会导致异常，并且后续执行CountDownLatch.await()的线程也不会被暂停。**因此CountDownLatch的使用是一次性的：一个CountDownLatch实例只能够实现一次等待和唤醒**
 
 值得注意的是，相比于之前的两个通知和等待方法，CountDownLatch实现等待await和通知countDown的时候都不需要加锁
 
@@ -1879,7 +1879,46 @@ JDK 1.5之后在java.util.concurrent包中引入了一些线程安全的集合�
 
 * 快照遍历
 
-CopyOnWriteArrayList和CopyOnWriteArraySet都是这种方式。**快照是在Iterator实例被创建的那一刻待遍历对象内部结构的一个只读对象**，反映了待遍历集合的某一刻的状态。对同一个并发集合进行遍历的每个线程都会得到各自的快照，因此快照相当于这些线程的特有对象，快照是只读的，因此返回的Iterator实例不支持remove方法。**这种方式的优点是遍历操作和更新操作之间互不影响，缺点是当遍历集合太大时，创建快照的开销会比较大**
+CopyOnWriteArrayList和CopyOnWriteArraySet都是这种方式。**快照是在Iterator实例被创建的那一刻待遍历对象内部结构的一个只读对象**，反映了待遍历集合的某一刻的状态。对同一个并发集合进行遍历的每个线程都会得到各自的快照，因此**快照相当于这些线程的特有对象**，快照是只读的，因此返回的Iterator实例不支持remove方法。**这种方式的优点是遍历操作和更新操作之间互不影响，缺点是当遍历集合太大时，创建快照的开销会比较大**
+
+```java
+//iterator方法调用后返回一个Iterator实例
+public Iterator<E> iterator() {
+        return new COWIterator<E>(getArray(), 0);
+    }
+//COWIterator类定义如下
+static final class COWIterator<E> implements ListIterator<E> {
+        /** Snapshot of the array */
+    	//array快照的副本
+        private final Object[] snapshot;
+        /** Index of element to be returned by subsequent call to next.  */
+    	//数组的下标
+        private int cursor;
+		//有参构造函数
+        private COWIterator(Object[] elements, int initialCursor) {
+            cursor = initialCursor;
+            snapshot = elements;
+        }
+		//是否遍历结束
+        public boolean hasNext() {
+            return cursor < snapshot.length;
+        }
+    	//获取元素
+    	 public E next() {
+             //首先判断是否遍历结束
+            if (! hasNext())
+                throw new NoSuchElementException();
+             //返回获取的元素并且将光标后移动
+            return (E) snapshot[cursor++];
+        }
+}
+```
+
+如上，当调用iterator()方法获取迭代器时实际会返回一个COWIterator实例，该实例的snapshot字段保存了当前list的内容，cursor是遍历list时数据的下标。
+
+实际上这里是list的指针传递的引用，并不是传递的副本。那为什么说snapshot是list的快照呢？
+
+这是因为如果在该线程使用返回的迭代器遍历元素的过程中，其他线程没有对list进行增删改，那么snapshoit本身就是list的array，因为二者是引用关系。但是如果在遍历器件其他线程对list进行增删改，那么snapshot就是快照了，因为增删改后list里面的数组已经被新数组替换了，这时候老数组被snapshot引用。这也就说明，使用该迭代器元素时，其他线程对该list进行的增删改不可见，因为操作的是两个不一样的数组，这也就是**弱一致性**
 
 * 准实时遍历
 
@@ -1891,7 +1930,12 @@ ConcurrentLinkedQueue、ConcurrentHashMap、ConcurrentSkipListMap和ConcurrentSk
 
 1. **ConcurrentLinkedQueue**：ConcurrentLinkedQueue是Queue接口的线程安全类，相当于LinkedList的线程安全版，可以作为Collection.synchronizedList的替代品。**其内部访问共享变量是使用CAS操作保障线程安全**，因此是非阻塞的，不会导致上下文切换。与BlockingQueue的实现类相比，ConcurrentLinkedQueue更适合于更新操作和遍历操作并发的情况，比如一个线程进行更新，另一个线程进行遍历；而BlockingQueue的实现类适合多线程并发更新
 
+**补充**
+
+ConcurrentLinkedQueue内部的队列使用单向链表方式实现，其中两个volatile类型的Node节点分别用来存储队列的首尾两个节点。**默认头、尾节点都是指向item为null的哨兵节点**，当第一次执行peek或者first操作时会把head指向第一个真正的队列元素。新元素会被插入队列的末尾，出队时从队列头部获取一个元素。其静态内部类Node内维护一个使用volatile修饰的变量item，用来存放节点的值；next用来存访链表的下一个节点。
+
 2. **ConcurrentHashMap**：ConcurrentHashMap是Map接口的线程安全实现类，相当于HashMap的线程安全版，可以作为HashTable和Collection.synchronizedMap的替代品。**其内部利用粒度极小的锁来保障线程安全**。ConcurrentHashMap的读操作不会导致锁的使用，默认情况下ConcurrentHashMap支持16个并发更新线程
+
 3. **CopyOnWriteArrayList**：CopyOnWriteArrayList是List接口的线程安全实现类，相当于ArrayList的线程安全版，其内部维护一个实例变量array用于引用一个数组。该数组存储了列表的各个元素，CopyOnWriteArrayList的更新是通过创建一个新数组newArray并把老数组的内容内容复制到新数组中，然后对newArray进行更新，最后使array指向newArray。**因此CopyOnWriteArrayList适合遍历频繁的情况，在其他情况下仍然要考虑Collection.synchronizedList（new ArrayList()）**
 
 ### 总结
@@ -2482,7 +2526,7 @@ public static ExecutorService newCachedThreadPool() {
 
 **newFixedThreadPool(int nThreads)方法**
 
-**核心线程池大小与最大线程池大小一样，线程池中空闲的工作者线程不会被清理，且以一个无界队列作为缓冲**
+**核心线程池大小与最大线程池大小一样，线程池中空闲的工作者线程不会被清理，且以一个无界队列作为缓冲**，因为keepAliveTime为0，说明只要线程个数比核心线程个数多并且当前空闲则回收
 
 ```java
 public static ExecutorService newFixedThreadPool(int nThreads) {
